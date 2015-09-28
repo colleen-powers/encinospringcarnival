@@ -85,17 +85,8 @@
           <div class="col-md-4 col-md-offset-2 wow fadeInDown" data-wow-duration="2s">
             <div class="register">
               <div><h3>Enter your email to get more information as it becomes available!</h3></div>
-              <form role="form" method="POST" id="registrationForm">
-                <div class="form-group">                      
-                  <input type="text" id="regName" name="name" data-validation="length" data-validation-length="min4" class="form-control input-lg" placeholder="Name">
-                </div>
-                <div class="form-group">                      
-                  <input type="email" id="regMail" name="email" data-validation="email" class="form-control input-lg" placeholder="Email">
-                </div>
-                <button type="submit" class="btn btn-empty btn-block btn-lg">Submit!</button>
-                <p>*your email is only for the purposes of the carnival communication and will not be sold or traded</p>
-              </form>
-              
+              <%= render 'users/new', :user => @user %>
+              <p>*your email is only for the purposes of the carnival communication and will not be sold or traded</p>
               <div class="ok">
                 <p class="icon"><i class="fa-check-circle-o fa fa-5x success-color"></i></p>
                 <h3>Thanks!</h3>
