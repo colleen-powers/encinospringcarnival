@@ -724,6 +724,7 @@ fieldset[disabled] .btn-link:focus {
 ************************************************/
 .schedule {
   padding: 60px 0;
+  background-color: #aaafb3;
 }
 .schedule .section-heading {
   text-align: center;
@@ -731,7 +732,7 @@ fieldset[disabled] .btn-link:focus {
 }
 .schedule .section-heading h1 {
   margin-top: 0;
-  font-family: "Noteworthy"
+  
 }
 .schedule .nav-tabs {
   font-size: 18px;
@@ -840,7 +841,7 @@ fieldset[disabled] .btn-link:focus {
 }
 .speakers .section-heading h1 {
   margin-top: 0;
-  font-family: "Noteworthy"
+  
 }
 
 
@@ -938,7 +939,7 @@ fieldset[disabled] .btn-link:focus {
 .testimonials .color-correction {
   position: absolute;
   z-index: 0;
-  background-color: #ffddd8;
+  background-color: rgba(255, 255, 255, 0.85);
   width: 100%;
   height: 100%;
   top: 0;
@@ -967,9 +968,10 @@ fieldset[disabled] .btn-link:focus {
   text-shadow: none;
   font-size: 22px;
   font-weight: 300;
+  color: #000000;
 }
 .testimonials blockquote footer {
-  color: #ffffff;
+  color: #000000;
 }
 @media (max-width: 768px) {
   .testimonials {
@@ -981,7 +983,7 @@ fieldset[disabled] .btn-link:focus {
 ************************************************/
 .price {
   padding: 60px 0;
-  background-color: #FF2500;
+  background-color: #aaafb3;
 }
 .price .section-heading {
   text-align: center;
@@ -989,18 +991,18 @@ fieldset[disabled] .btn-link:focus {
 }
 .price .section-heading h1 {
   margin-top: 0;
-  font-family: "Noteworthy";
+  
   color: #ffffff;
 }
 .price .section-heading h2 {
 
-  font-family: "Noteworthy";
+  f
   font-size: 24px;
   color: #ffffff;
 }
 .price .section-heading p {
 
-  font-family: "Chalkboard";
+  
   color: #ffffff;
 }
 
@@ -1054,20 +1056,22 @@ fieldset[disabled] .btn-link:focus {
 ************************************************/
 .faq {
   padding: 60px 0;
-  background-color: #eeeeee;
+  background-color: #ff5032;
+  color: #ffffff;
 }
 .faq h1 {
   margin-top: 40px;
+  color: #ffffff;
 }
 .faq hr {
-  border-top-color: #999999;
+  border-top-color: #ffffff;
 }
 .faq .panel-group {
   margin-bottom: 0;
 }
 .faq .panel {
   padding: 0;
-  background: #0000FF;
+  background: #FF2500;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -1080,7 +1084,7 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 3px;
   font-size: 18px;
   padding: 7px 12px;
-  border: 1px solid #0000FF;
+  border: 1px solid #FF2500;
   text-decoration: none;
 }
 /************************************************
@@ -1401,22 +1405,23 @@ fieldset[disabled] .btn-link:focus {
 /***** base bg colors *****/
 .primary-bg {
   background-color: #FF2500;
-  height: 954px;
+  height: 980px;
 }
 .success-bg {
   background-color: #ffd700;
-  height: 954px;
+  height: 980px;
 }
 .info-bg {
   background-color: #e5e4e2;
+  height: 980px;
 }
 .danger-bg {
   background-color: #c0c0c0;
-  height: 954px;
+  height: 980px;
 }
 .warning-bg {
   background-color: #FF7F00;
-  height: 954px;
+  height: 980px;
 }
 .default-bg {
   background-color: #eeeeee;
