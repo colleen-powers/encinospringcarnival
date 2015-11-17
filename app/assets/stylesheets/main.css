@@ -990,8 +990,7 @@ fieldset[disabled] .btn-link:focus {
   margin-bottom: 60px;
 }
 .price .section-heading h1 {
-  margin-top: 0;
-  
+  margin-top: 0;  
   color: #ffffff;
 }
 .price .section-heading h2 {
@@ -1000,8 +999,7 @@ fieldset[disabled] .btn-link:focus {
   color: #ffffff;
 }
 .price .section-heading p {
-
-  
+ 
   color: #ffffff;
 }
 
