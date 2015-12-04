@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'navigation/nav'
+
+  get 'static_pages/home'
+
+  get 'static_pages/information'
+
+  get 'static_pages/schedules'
+
+  get 'static_pages/vendors'
+
+  get 'static_pages/sponsors'
+
+  get 'static_pages/stcyril'
+
   get 'users/new'
 
   get 'welcome/homepage'
