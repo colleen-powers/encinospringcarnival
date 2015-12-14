@@ -16,4 +16,7 @@ class StaticPagesController < ApplicationController
 
   def stcyril
   end
+
+  def t_shirt
+  end
 end
