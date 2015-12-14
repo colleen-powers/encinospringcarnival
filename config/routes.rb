@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   get 'static_pages/stcyril'
 
+  get '/t-shirt', to: 'static_pages#t_shirt', as: 'static_pages/t_shirt'
+
   get 'users/new'
 
   get 'welcome/homepage'
