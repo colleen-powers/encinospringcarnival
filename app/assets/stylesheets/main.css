@@ -862,7 +862,7 @@ fieldset[disabled] .btn-link:focus {
   top: 0;
 }
 .speakers .speaker:hover .speaker-img img {
-  border-color: #0000FF;
+  border-color: #5E5E5E;
 }
 .speakers .speaker-img {
   width: 70%;
@@ -887,7 +887,7 @@ fieldset[disabled] .btn-link:focus {
 .speakers .speaker-contacts {
   text-decoration: none;
   color: #ffffff;
-  background-color: #0000FF;
+  background-color: #5E5E5E;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -921,10 +921,14 @@ fieldset[disabled] .btn-link:focus {
 .speakers .speaker-desc {
   text-align: center;
   padding: 0 20% 20px;
+  font-family: "Lato"
+
 }
 .speakers .speaker-desc p {
   font-size: 18px;
   margin-top: 10px;
+ 
+
 }
 /************************************************
 *** testimonials ***
